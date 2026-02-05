@@ -1,7 +1,7 @@
 from flask import Flask, request , render_template
 from google import genai
 
-client = genai.Client(api_key="AIzaSyBjA-ZFygZJcnSXSOy0zMpkzAJkgclvhuM")
+client = genai.Client(api_key="Your API KEY")
 
 app = Flask(__name__)
 
@@ -15,4 +15,5 @@ def chat():
         model="gemini-2.5-flash",
         contents=request.json["msg"],
     ).text
+
 app.run(port=5000)
