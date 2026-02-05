@@ -68,15 +68,15 @@ http://127.0.0.1:5000
 
 🧠 How It Works
 
-User sends a message from the UI
+1.User sends a message from the UI
 
-JavaScript sends it to /chat endpoint
+2.JavaScript sends it to /chat endpoint
 
-Flask forwards it to Gemini 2.5 Flash
+3.Flask forwards it to Gemini 2.5 Flash
 
-Gemini generates a response
+4.Gemini generates a response
 
-Response is displayed in real-time
+5.Response is displayed in real-time
 
 🌱 Future Enhancements
 
